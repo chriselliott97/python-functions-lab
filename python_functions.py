@@ -26,3 +26,13 @@ print(largest(([10, 4, 2, 231, 91, 54])))
 
 
 # EXERCISE 3 --------------
+# Had to peak at the solution for this one 
+
+def occurrences(str, sec_str):
+  return str.count(sec_str)
+
+print('-----3-----')
+print(occurrences('fleep floop', 'e'))
+print(occurrences('fleep floop', 'p'))
+print(occurrences('fleep floop', 'ee'))
+print(occurrences('fleep floop', 'fe'))
